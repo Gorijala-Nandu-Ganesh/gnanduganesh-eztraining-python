@@ -1,0 +1,57 @@
+DAY-3
+
+List:-
+
+ -->ordered
+ -->duplicate items allowed
+ -->items added at the end of the list
+
+ 1)append()- add an element to end of list
+ 2)extend()- add more than one elements at the end of the list
+ 3)insert()- insert an item at defined in dex
+ 4)remove()- removes an item from the list
+ 5)pop()- removes and returns an element at given index
+ 6)clear()- removes all items from list
+ 7)index()- returns index of first matched items
+ 8)count()- return count of number of items passed as an argument
+ 9)sort()- sort items in ascending order
+ 10)reverse()- reverse the order of the list
+ 11)copy()- returns a shallow copy of list
+
+Comprehend:-
+
+ ex- numbers=[elements for elements in "Good Afternoon"]
+      print(numbers)
+     o/p- 'G','o','o','d',' ','A','f','t','e','r','n','o','o','n'
+
+Set and its properties:-
+   
+   -->unordered
+   -->so index not there
+   -->duplicate items not allowed
+
+ 1)s.add()- add an element in list
+ 2)s.update()- add more than one element in set anywhere
+ 3)s.discard()- removes an element
+ 4)s.remove()- gets error if the removing element is not present in the set
+
+    -->s1|s2- gives all elements in both sets without repeating
+    -->s1&s2- gives all common elements in both sets
+    -->s1-s2- different letters in s1 will get.
+    -->s2-s1- different letters in s2 will get
+
+  Tuple:-
+
+     -->ordered
+     -->unchangable
+     -->count()- number of times an element occured
+     -->methods- count and index
+     -->index- returns element index
+
+   Dictionary:-
+   
+     -->It contains elements with two units keys and values
+     -->Keys must be unique
+     -->d.update()- add items
+     -->d.pop()- removes items
+     -->d.setdefault()- if given key is not in dictionary then it will be added or nothing will be done.
