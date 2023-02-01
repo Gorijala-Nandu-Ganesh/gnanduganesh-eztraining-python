@@ -1,0 +1,78 @@
+DAY-2
+
+1)Arithematic operators:-  + ,  - ,  *,  / ,  //,  %
+   ex- 10 / 2=  5 (gives quotient)
+         10 // 2= 5
+         10 % 3= 1 (given remainder)
+         12 % 5= 2
+
+2)Relational operators or comparision operator:- < , <= , >= , == , !=
+
+3)Logical operators:- And , Or
+
+4)Bitwise operators:- zero's(0) and one's(1)
+    Some operators, if you like them, it will be faster like compressing data, sending data in network to network. 
+    ex- 0-1 or ON-OFF or true-false
+   1)Bitwise operators AND (&)
+   2)Bitwise OR (|)
+   3)Bitwise NOT or negatiation (~) 
+   4)Bitwise XOR (^)
+   5)Bitwise left shift(<<) and right shift(>>)
+
+  ex- 12 & 7 = 4
+        10 | 4 = 14
+        12 | 7 = 15
+        ~4 = -5
+        ~10 = -11
+        ~1 = -2
+        5 ^ 6 = 3
+        9 ^ 8 = 1
+
+  Conditional Statements:-
+   
+    1)if
+       ex- t=30
+             if t>26:
+                  print("yes")
+    2)if-else
+        ex- t=30
+              if t>26:
+                  print("yes")
+              else:
+                  print("no")
+    3)else-if
+       ex- t=30
+              if t>26:
+                  print("yes")
+              elif t==26:
+                  print("its equal")
+              else:
+                  print("not >26 and not equal also")
+     4)else-if ladden
+          ex- t=30
+              if t>26:
+                  print("yes")
+              elif t==26:
+                  print("its equal")
+              elif t<26:
+                  print("its less")
+      5)nested-if
+          ex- t=50
+                if t>26:
+                    if t==50:
+                         print("yes")
+                    else:
+                         print(("not 50")
+                 else:
+                     print("not >26")
+
+   Loops:-
+      1)while
+         ex- i=1
+               while i<=10:
+               print(i)
+               i=i+1
+      2)for
+          ex- for i in range(1,11,2):
+                print(i)
+            o/p- 1,3,5,7,9 
