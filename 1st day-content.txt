@@ -1,0 +1,45 @@
+DAY-1
+
+-->Python is invented by "Guido Van Rossum".
+
+-->Python is famous in the market and it is called as language of future. It supports current technologies and upcomming technologies.
+
+-->Mediums- IDLE(Integrated development learning environment), jupiter notebook, anaconda, thony, vs code.
+
+-->Code format in IDLE:-
+   correct format:
+   boy=45
+   _4x=100
+   _hii=45
+   wrong format:
+   45=boy
+   4_x=b
+
+-->Data types:-
+
+   1)Numerical
+    integer(34)
+    float(5.6)
+    complex(5+6+7)
+    ex- type(34)=int
+
+   2)Boolean
+    True(1)
+    False(0)
+    ex-type(True)=bool or
+       bool(1)=True
+  
+   3)Sequence
+    string, list, dictionary, tuple
+    ex-list=([4,5])
+
+   4)ex-id(27)=2217716024368
+
+   5)ex-isinstance("hii",str)
+        True
+
+   Operators precedence and associativity law:-
+
+-->Every operator has its own priority, we can use BODMAS rule(Bracket, Order, Division, Multiplication, Addition, Subtraction).
+
+-->If there is same priority operators in the expression evaluation happens left to right except assignment(=) operator which evaluates right to left.
