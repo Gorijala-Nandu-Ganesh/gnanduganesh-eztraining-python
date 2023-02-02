@@ -1,0 +1,39 @@
+DAY-4
+
+Commands:-
+
+-->s.upper()- convert all to upper case
+-->s.lower() or s.casefold()- convert all to lower case
+-->s.capitalize()- convert first lettrr to capital
+-->s.replace('h','a')- replace all h with a
+-->s.count('a')- count a in string
+-->s.count('a',5,len(5))- beginning with 5 and count till end of string
+-->s.split(a)- ex: 'happy' gives 'h','ppy'
+-->s.center(31,'*')---s.center(width,'fill char')
+     will fix total length then fix string in center and fill other empty spaces with fill char
+-->s.endswith('a',0,len(s))- it checks string ends with 'a' or not
+-->find('a',0,len(s))- check a and returns index value of first occurence
+-->a.index('a',7,len(s))- from 7 to end where 'a' there returns first occurence of that characters index
+-->s.islower() / s.isupper() / s.istitle()- all words start be caps
+     max(s)- returns greater char like a>b>c>..........>z
+     min(s)- returns lesser char like a<b<c<...........<z
+-->s.startswith('hello',0,len(s))
+-->s.r.find('a',0,len(s))-----------from reverse first or last occurence
+
+Mutable vs Immutable
+
+Mutable- can be changed after creation
+               ex-list, set, dictionary, tuple
+Immutable- can't be changed after creation
+                     ex-int, float, string, char
+
+#Math module
+
+import math
+print("CEIL 12.5:",math.cell(12.5))
+print("FLOOR 12.5:",math.floor(12.5))
+print("SQRT 345:",math.sqrt(345))
+print("Factorial 3:",math.factorial(3))
+print("Remainder 10.3:",math.find(10,3))
+a,b=divmod(10,3)
+print(a,b) 
