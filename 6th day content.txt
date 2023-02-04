@@ -1,0 +1,43 @@
+DAY-6
+
+EXCEPTION HANDLING
+-->when there is exception the developer does not want iinterruption or disturbance in the program flow to achieve this, so we are using exception handling.
+ex-
+a=100
+b=0
+try:
+    print(a/b)
+except Exception :
+    print("Please note, number can't be divided by zero")
+print("bye")
+
+#with e
+a=100
+b=0
+try:
+    print(a/b)
+except Exception as e:
+    print("Please note, number can't be divided by zero")
+print("bye")
+o/p-Please note, number can't be divided by zero
+    Bye
+
+OOPS (Object Oriented Programming Structure)
+-->its an efficient concept use in all object oriented programming languages like Java and Python.
+-->for multiple reasons we use oops concept.
+   for example- code reusability,data security,holding data.
+ Class- its a blue print
+       ex- birds,laptops
+ Object- its a thing created based on class.
+   note-one class can have multiple objects.
+ex- class=birds-object=peacock,parrot,crow,swan.
+    class=laptop-object=Lenova,HP,DELL,Apple.
+   #class computer:
+    def config(self):
+        print("Yes")
+    lenova=computer() #object 1
+    lenova.config()
+    dell=computer()   #object 2
+    dell.config()
+o/p-Yes
+    Yes
