@@ -1,0 +1,41 @@
+Day-2
+
+POLYMORPHISM-
+-->One item or same item used for different purposes.
+   Types:-
+   1)Overloading
+     (a)Operator overloading
+        ex- 5+10=15
+            "5"+"10"=510
+     (b)Method overloading
+   2)Over riding-If a method is defective or cannot be used inside derived class it will take it from base class or parent class.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATA STRUCTURES:-
+
+-->Helps to write efficient programs.
+-->Linear-array/linked list/stack/queue/matrix.
+-->Non linear-binary tree/heap/hash table/graph.
+-->Linear-storing data sequently.
+-->Non linear-no sequential style required.
+
+****Priority-linkedlist>graphs>trees.
+
+-->Static-which has fixed size.ex-array
+-->Dynamic-which is flexible for changing its size.ex-list,stack,queue.
+
+-->Linked list:-as the name says list of items which are linked with one another is called linked list. ex: train
+   Types:singly/doubly/circular.
+
+-->Creating linked list:
+   step 1-create the node.
+   step 2-partition the node with 2 segments data and none.
+   step 3-add value into the blank node.
+   step 4-mark the node as head.
+   step 5-create the next node by following the above steps.
+   step 6-establish link between 1st node and 2nd node.
+-->Displaying linked list:
+   Traversal is required from first node till tail node inorder to display existing linked list.
+ Operations-
+  -->Inserting node at beginning,ending and at any position.
+  -->Deleting
+  -->Searching
