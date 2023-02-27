@@ -1,0 +1,24 @@
+Day-3
+
+Single linkedlist:
+-->Deletion of beginning element from single linkedlist:-
+   it will deletes the element from the single linkedlist at the beginning of the list.
+-->Deletion of end element from single linkedlist:-
+   it will deletes the element from the single linkedlist at the end of the list.
+-->Searching of element in the single linkedlist:-
+   it will searches the position of element in the list.
+
+Double linkedlist:
+-->Deletion of beginning element from double linkedlist:-
+   "def delete_beginning(self):
+        temp=self.head
+        self.head=temp.next
+        temp.next=None"
+-->Deletion of end element from double linkedlist:-
+   "def delete_end(self):
+        temp=self.head.next
+        prev=self.head
+        while temp.next is not None:
+              temp=temp.next
+              prev=prev.next
+        prev.next=None"
