@@ -43,7 +43,7 @@ for i in questions:
        print("wrong answer, you lost one mark")
        score=score-1
        print("your current score is ",score)
-    flag2=input("Do you want to quiz? type (yes/no)")
+    flag2=input("Do you want to quit? type (yes/no)")
     if flag2=="yes":
         break
 print("Your total score is ",score)
